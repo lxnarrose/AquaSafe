@@ -84,8 +84,8 @@ li {
 footer {
     background-color: #00acc1;
     color: white;
-    padding: 1rem 0;
-    position: fixed;
+    padding: 1;
+    position: bottom;
     width: 100%;
     bottom: 0;
     left: 0;
