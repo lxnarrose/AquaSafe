@@ -25,6 +25,22 @@ header p {
     margin: 0.5rem 0 0;
 }
 
+header .download-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #00796b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Mali', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+header .download-button:hover {
+    background-color: #004d40;
+}
+
 section {
     margin: 2rem auto;
     max-width: 800px;
@@ -76,7 +92,7 @@ footer {
 }
 
 /* Animaciones */
-header h1, h2, li, .images img {
+header h1, h2, li, .images img, .download-button {
     animation: fadeIn 2s ease-in-out;
 }
 
